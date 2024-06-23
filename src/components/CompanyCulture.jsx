@@ -1,5 +1,5 @@
 import React from 'react';
-import Company_Culture from './../../assets/CompanyCulture.jpeg';
+import Company_Culture from '../assets/CompanyCulture.jpeg';
 const CompanyCulture = () => {
 	return (
 		<>

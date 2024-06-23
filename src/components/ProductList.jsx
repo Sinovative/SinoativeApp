@@ -6,10 +6,11 @@ const ProductList = ({ Categoryid }) => {
 	const productsPerPage = 12;
 
 	useEffect(() => {
+		const Imagepath = 'src/assets/MoterCycle_Image';
 		const data = Array.from({ length: 20 }, (_, i) => ({
 			id: i + 1,
 			imageID: `img${i + 1}`,
-			productImage: `../../assets/MC_${i + 1}.jpeg`,
+			productImage: `${Imagepath}_${i + 1}.jpeg`,
 			Categoryid: 1, // Assuming all products have Categoryid 1 for this example
 			slno: `SLN-${i + 1000}`,
 		}));

@@ -1,8 +1,8 @@
 import React from 'react';
-import productsHeader1 from './../../assets/productsHeader1.jpeg';
-import productsHeader2 from './../../assets/productsHeader2.jpeg';
-import productsHeader3 from './../../assets/productsHeader3.jpeg';
-import productsHeader4 from './../../assets/productsHeader4.jpeg';
+import productsHeader1 from '../assets/productsHeader1.jpeg';
+import productsHeader2 from '../assets/productsHeader2.jpeg';
+import productsHeader3 from '../assets/productsHeader3.jpeg';
+import productsHeader4 from '../assets/productsHeader4.jpeg';
 
 const ProductsHeader = () => {
 	const cards = [

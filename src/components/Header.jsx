@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SliderImage1 from '../assets/slider1.jpg';
-import SliderImage2 from '../assets/slider2.jpg';
+import SliderImage1 from '../assets/slider1.jpeg';
+import SliderImage2 from '../assets/slider2.jpeg';
 
 const Header = () => {
 	return (

@@ -8,6 +8,8 @@ import ContactUs from './Pages/ContactUs';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+import './App.css';
+
 import { Route, Routes } from 'react-router-dom';
 
 const App = () => {

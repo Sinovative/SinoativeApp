@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Header from '../components/Header';
-// import TyreCollection from '../components/TyreCollection';
 import ProductsHeader from '../components/ProductsHeader';
 import { useLocation } from 'react-router-dom';
 import ProductList from '../components/ProductList';
@@ -11,7 +9,6 @@ const useQuery = () => {
 
 const Products = () => {
 	const query = useQuery();
-	const [paramID, setParamID] = useState(1);
 	const id = query.get('id');
 
 	return (

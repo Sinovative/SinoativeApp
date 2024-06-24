@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../assets/Logo.png';
-import './Navbar.css'; // Import the CSS file
+import Logo from '../../assets/Logo.png';
+import './Navbar.css';
 
 const Navbar = () => {
 	const [activeLink, setActiveLink] = useState('Home');
@@ -20,12 +20,14 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className={`navbar ${menuOpen ? 'open' : ''}`}>
+		<nav className={`navbar ${menuOpen ? 'open' : ''} px-2 my-4`}>
 			<div className='logo'>
-				<img
-					src={Logo}
-					alt='Brand'
-				/>
+				<NavLink to={'/'}>
+					<img
+						src={Logo}
+						alt='Brand'
+					/>
+				</NavLink>
 			</div>
 			<button
 				className='burger'

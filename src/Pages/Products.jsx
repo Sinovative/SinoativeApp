@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import ProductsHeader from '../components/ProductsHeader';
 import { useLocation } from 'react-router-dom';
-import ProductList from '../components/ProductList';
+
+import ProductsHeader from '../components/ProductHeader/ProductsHeader';
+import ProductList from '../components/ProductList/ProductList';
 
 const useQuery = () => {
 	return new URLSearchParams(useLocation().search);

@@ -1,14 +1,16 @@
 import React from 'react';
 
-import CoreBusiness1 from '../assets/slider2.jpeg';
-import CoreBusiness2 from '../assets/CoreBusiness_2.jpeg';
-import CoreBusiness3 from '../assets/CoreBusiness_3.jpeg';
-import CoreBusiness4 from '../assets/CoreBusiness_4.jpeg';
+import CoreBusiness1 from '../../assets/CoreBusiness_1.jpeg';
+import CoreBusiness2 from '../../assets/CoreBusiness_2.jpeg';
+import CoreBusiness3 from '../../assets/CoreBusiness_3.jpeg';
+import CoreBusiness4 from '../../assets/CoreBusiness_4.jpeg';
 
-import CoreBusiness_Logo_1 from '../assets/CoreBusiness_Logo_1.png';
-import CoreBusiness_Logo_2 from '../assets/CoreBusiness_Logo_2.png';
-import CoreBusiness_Logo_3 from '../assets/CoreBusiness_Logo_3.png';
-import CoreBusiness_Logo_4 from '../assets/CoreBusiness_Logo_4.png';
+import CoreBusiness_Logo_1 from '../../assets/CoreBusiness_Logo_1.png';
+import CoreBusiness_Logo_2 from '../../assets/CoreBusiness_Logo_2.png';
+import CoreBusiness_Logo_3 from '../../assets/CoreBusiness_Logo_3.png';
+import CoreBusiness_Logo_4 from '../../assets/CoreBusiness_Logo_4.png';
+
+import './Corebusiness.css';
 
 const CoreBusiness = () => {
 	const businesses = [

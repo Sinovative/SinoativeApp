@@ -1,9 +1,9 @@
 import React from 'react';
 
 import Header from '../components/Header';
-import CoreBusiness from '../components/CoreBusiness';
-import CompanyCulture from '../components/CompanyCulture';
-import TyreCollection from '../components/TyreCollection';
+import CoreBusiness from '../components/CoreBusiness/CoreBusiness';
+import CompanyCulture from '../components/CompanyCulture/CompanyCulture';
+import TyreCollection from '../components/TyreCollection/TyreCollection';
 
 const Home = () => {
 	return (
@@ -16,9 +16,9 @@ const Home = () => {
 				<CoreBusiness />
 			</section>
 
-			<section>
+			{/* <section>
 				<CompanyCulture />
-			</section>
+			</section> */}
 			<div className=''>
 				<TyreCollection />
 			</div>

@@ -2,8 +2,10 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import MoterCycleTyres from '../assets/MotercycleTyres.jpeg';
-import { Link, NavLink } from 'react-router-dom';
+import MoterCycleTyres from '../../assets/MotercycleTyres.jpeg';
+import { NavLink } from 'react-router-dom';
+
+import './TyreCollection.css';
 
 const TyreCollection = () => {
 	const tyres = [
@@ -55,8 +57,8 @@ const TyreCollection = () => {
 
 	return (
 		<>
-			<div className=' mt-4'>
-				<p className='header-text'>Tire Collection </p>
+			<div className='TyreContainer'>
+				<h4 className='my-4 header-text'>Tire Collection </h4>
 				<p className='section-para'>Check our latest collections </p>
 			</div>
 			<Carousel

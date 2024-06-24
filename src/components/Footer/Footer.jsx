@@ -1,14 +1,15 @@
 import React from 'react';
-import phoneLogo from '../assets/phone-solid.svg';
-import location from '../assets/location-dot-solid.svg';
+import phoneLogo from '../../assets/phone-solid.svg';
+import location from '../../assets/location-dot-solid.svg';
+import './Footer.css';
 const Footer = () => {
 	return (
 		<div className='footer row text-white '>
-			<div className='col-5  text-end d-flex align-items-center justify-content-end'>
+			<div className='col-5'>
 				<h4>Contact Us</h4>
 			</div>
 			<div className='col-7'>
-				<section className='mx-2 d-flex align-items-center justify-content-start'>
+				<section className='mx-2'>
 					<span>
 						<img
 							src={phoneLogo}
@@ -20,7 +21,7 @@ const Footer = () => {
 						<h5 className='pt-2'>(+86) 190-5058-8278</h5>
 					</span>
 				</section>
-				<section className='mx-2 d-flex align-items-center justify-content-start'>
+				<section className='mx-2 d-flex align-items-center justify-content-start location'>
 					<span>
 						<img
 							src={location}

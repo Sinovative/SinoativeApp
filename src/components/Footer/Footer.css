@@ -1,0 +1,73 @@
+.footer {
+	background-color: #eb692f;
+	text-align: center;
+	margin-top: 2rem !important;
+	padding: 2rem;
+}
+.footer .col-5 {
+	border-right: 2px solid white;
+	display: flex;
+	align-items: center !important;
+	justify-content: end !important;
+}
+.footer h4 {
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.footer h5 {
+	font-size: 1.01rem;
+	font-weight: 300;
+	line-height: 1.5rem;
+	letter-spacing: 2px;
+}
+
+.phoneLogo {
+	width: 25px;
+	margin-right: 10px;
+}
+
+.locationIcon {
+	width: 25px;
+	margin-right: 10px;
+}
+
+.footer .col-7 section {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+@media (max-width: 768px) {
+	.footer {
+		flex-direction: column;
+	}
+
+	.footer .col-5 {
+		width: 100%;
+		border-right: none;
+		border-bottom: 2px solid white;
+		justify-content: center;
+		padding: 1rem;
+	}
+
+	.footer .col-5 {
+		display: inline-block !important;
+		text-align: center;
+		align-items: center !important;
+		justify-content: center !important;
+	}
+
+	.footer .col-7 {
+		color: #000;
+		width: 100%;
+		align-items: center;
+		padding: 1rem 0;
+	}
+	.footer .location {
+		margin: 1rem;
+		display: flex !important;
+		align-items: flex-start !important;
+		justify-content: flex-start !important;
+	}
+}

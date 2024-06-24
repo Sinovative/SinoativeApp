@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 const ProductList = ({ Categoryid }) => {
 	const [currentPage, setCurrentPage] = useState(1);
 	const [filteredProducts, setFilteredProducts] = useState([]);
@@ -6,8 +7,8 @@ const ProductList = ({ Categoryid }) => {
 	const productsPerPage = 12;
 
 	useEffect(() => {
-		const Imagepath = 'src/assets/MoterCycle_Image';
-		const data = Array.from({ length: 20 }, (_, i) => ({
+		const Imagepath = '/../src/assets/MoterCycle_Image';
+		const data = Array.from({ length: 19 }, (_, i) => ({
 			id: i + 1,
 			imageID: `img${i + 1}`,
 			productImage: `${Imagepath}_${i + 1}.jpeg`,
@@ -15,7 +16,7 @@ const ProductList = ({ Categoryid }) => {
 			slno: `SLN-${i + 1000}`,
 		}));
 		setProductData(data);
-	}, []);
+	}, [Categoryid]);
 
 	useEffect(() => {
 		if (Categoryid !== null) {

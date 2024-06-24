@@ -1,0 +1,25 @@
+.tyre-card {
+	outline: 2px solid black;
+	border: 2px solid black;
+	padding: 12px;
+	position: relative;
+}
+
+.card-img {
+	height: 350px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: flex-end;
+}
+
+.tyre-info {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 12px;
+	color: white;
+	font-weight: 600;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}

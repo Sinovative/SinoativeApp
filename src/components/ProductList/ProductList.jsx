@@ -7,7 +7,7 @@ const ProductList = ({ Categoryid }) => {
 	const productsPerPage = 12;
 
 	useEffect(() => {
-		const Imagepath = '/../src/assets/MoterCycle_Image';
+		const Imagepath = '/images/MoterCycle_Image';
 		const data = Array.from({ length: 19 }, (_, i) => ({
 			id: i + 1,
 			imageID: `img${i + 1}`,

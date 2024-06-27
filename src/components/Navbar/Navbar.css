@@ -27,31 +27,28 @@
 }
 
 .menu li a {
-	color: #fff;
-	color: #1b1b1b;
 	text-decoration: none;
 	padding: 8px 18px;
-	border: 1xp solid black;
+	color: #eb692f;
+	border: 1px solid #fff;
+	border-bottom: 1px solid #eb692f;
 	border-radius: 5px;
-
+	font-weight: 700;
 	font-size: 18px;
-	font-weight: 500;
-
-	border: 1px solid #eb692f;
+	letter-spacing: 2px;
 }
 
 .menu li .active {
-	color: #eb692f;
-	background-color: #fff;
-	border: 1px solid #eb692f;
+	color: #fff;
+	background-color: #eb692f;
+	border: 1px solid #eb692f;    
 }
 
 .menu li a:hover {
-	background: linear-gradient(
-		to bottom right,
-		#f5a481,
-		#adbbda
-	); /* Gradient background */
+	/* background: linear-gradient(to bottom right, #eb692f, ); */
+	background: rgba(214, 98, 45, 0.681);
+	color: whitesmoke;
+	border: 1px solid #333;
 }
 
 /* Burger menu styles */

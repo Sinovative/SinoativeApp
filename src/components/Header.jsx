@@ -4,6 +4,8 @@ import SliderImage2 from '../assets/slider2.jpeg';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+import './Header.css';
+
 const Header = () => {
 	const responsive = {
 		desktop: {
@@ -35,14 +37,14 @@ const Header = () => {
 		>
 			<div>
 				<img
-					className='d-block w-100'
+					className='d-block w-100 HeaderSlide'
 					src={SliderImage1}
 					alt='First slide'
 				/>
 			</div>
 			<div>
 				<img
-					className='d-block w-100'
+					className='d-block w-100 HeaderSlide'
 					src={SliderImage2}
 					alt='Second slide'
 				/>

@@ -20,7 +20,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className={`navbar ${menuOpen ? 'open' : ''} px-2 my-4`}>
+		<nav className={`navbar ${menuOpen ? 'open' : ''} px-2 my-2`}>
 			<div className='logo'>
 				<NavLink to={'/'}>
 					<img

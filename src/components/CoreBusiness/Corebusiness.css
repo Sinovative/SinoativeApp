@@ -1,17 +1,22 @@
 .coreBusinessSection {
 	padding: 20px 0;
 	background-color: #f9f9f9;
-	max-width: 1200px;
+	/* max-width: 1200px; */
 	border-radius: 8px;
 	margin: auto;
 }
-
+img.card-img-top {
+    object-fit: fill;
+    height: 328px;
+    width: 728px;
+}
 .card-link {
 	text-decoration: none;
 	color: inherit;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-link:hover {
@@ -23,7 +28,7 @@
 	background-color: transparent;
 	padding: 10px;
 	overflow: hidden;
-	height: 300px; /* Set a fixed height for better responsiveness */
+	height: 285px; /* Set a fixed height for better responsiveness */
 	flex: 1 0 auto;
 }
 
@@ -46,14 +51,19 @@
 }
 
 .card-body img {
-	width: 120px;
-	margin-right: 10px;
+    width: 80px;
+    margin-right: 10px;
+    height: 41px;
+    object-fit: contain;
 }
 
 .card-body .col-9 {
 	padding-left: 0;
 }
-
+p.card-text {
+    margin-bottom: 0;
+    padding: 0;
+}
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
 	.card-body {

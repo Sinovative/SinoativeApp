@@ -58,7 +58,7 @@ const TyreCollection = () => {
 	return (
 		<>
 			<div className='TyreContainer'>
-				<h4 className='my-4 header-text'>Tire Collection </h4>
+				<h4 className='my-2 header-text'>Tire Collection </h4>
 				<p className='section-para'>Check our latest collections </p>
 			</div>
 			<Carousel
@@ -80,7 +80,7 @@ const TyreCollection = () => {
 			>
 				{tyres.map((tyre) => (
 					<div
-						className='tyre-card'
+						className='tyre-card mx-2'
 						key={tyre.id}
 					>
 						<div

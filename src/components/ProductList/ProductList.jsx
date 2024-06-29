@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import {  } from "module";
+import './ProductList.css';
 const ProductList = ({ Categoryid }) => {
 	const [currentPage, setCurrentPage] = useState(1);
 	const [filteredProducts, setFilteredProducts] = useState([]);
@@ -70,7 +71,7 @@ const ProductList = ({ Categoryid }) => {
 									alt={`Product ${product.id}`}
 									className='p-4 card-img'
 								/>
-								<button className='btn btn-primary mx-4 my-3 py-3 ProductListButton'>
+								<button className='btn btn-primary mx-4 my-3 ProductListButton'>
 									Learn More
 								</button>
 							</div>
@@ -83,8 +84,8 @@ const ProductList = ({ Categoryid }) => {
 					onClick={handlePreviousPage}
 					className={
 						currentPage === 1
-							? 'btn btn-secondary px-4 mx-4'
-							: 'btn btn-primary px-4 mx-4'
+							? 'btn btn-secondary PrevBtn px-4 mx-4'
+							: 'btn btn-primary NextBtn px-4 mx-4'
 					}
 					disabled={currentPage === 1}
 				>

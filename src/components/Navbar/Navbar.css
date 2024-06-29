@@ -6,6 +6,10 @@
 	padding: 1rem;
 	background: whitesmoke;
 	position: relative;
+	background: #efefef;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+	
 }
 
 .logo img {
@@ -27,28 +31,31 @@
 }
 
 .menu li a {
+	color: #fff;
+	color: #1b1b1b;
 	text-decoration: none;
 	padding: 8px 18px;
-	color: #eb692f;
-	border: 1px solid #fff;
-	border-bottom: 1px solid #eb692f;
+	border: 1xp solid black;
 	border-radius: 5px;
-	font-weight: 700;
-	font-size: 18px;
-	letter-spacing: 2px;
+
+	font-size: 1em;
+	font-weight: 500;
+
+	border: 1px solid #eb692f;
 }
 
 .menu li .active {
-	color: #fff;
-	background-color: #eb692f;
-	border: 1px solid #eb692f;    
+	color: #eb692f;
+	background-color: #fff;
+	border: 1px solid #eb692f;
 }
 
 .menu li a:hover {
-	/* background: linear-gradient(to bottom right, #eb692f, ); */
-	background: rgba(214, 98, 45, 0.681);
-	color: whitesmoke;
-	border: 1px solid #333;
+	background: linear-gradient(
+		to bottom right,
+		#f5a481,
+		#adbbda
+	); /* Gradient background */
 }
 
 /* Burger menu styles */

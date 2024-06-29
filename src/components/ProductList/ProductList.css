@@ -1,0 +1,18 @@
+img.p-4.card-img {
+    object-fit: contain;
+}
+.ProductListButton {
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+button.btn.btn-secondary.PrevBtn {
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+button.btn.btn-primary {
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}

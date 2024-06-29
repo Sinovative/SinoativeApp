@@ -52,7 +52,7 @@ const CoreBusiness = () => {
 
 	return (
 		<section className='coreBusinessSection'>
-			<h4 className='my-4 header-text'>Four Core Businesses</h4>
+			<h4 className='my-2 header-text'>Four Core Businesses</h4>
 			<p className='section-para'>
 				Technology as the driving force and quality as the eternal
 			</p>
@@ -78,9 +78,9 @@ const CoreBusiness = () => {
 									<img
 										src={business.icon}
 										alt={`${business.title} icon`}
-										className='mb-2 col-3'
+										className='mb-2 col-2'
 									/>
-									<div className='col-9'>
+									<div className='col-10'>
 										<p className='card-text'>
 											{business.description1}
 										</p>

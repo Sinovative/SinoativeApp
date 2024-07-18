@@ -33,7 +33,7 @@ const Footer = () => {
 						<h5 className='pt-2 text-start'>
 							Sinovative (QINGDAO) Technology Development Co. Ltd
 							<br />
-							Room 102, Unit 2, Xifuyuanzhu East, <br /> Huangdao
+							107, Shuanghe  Rd. <br /> Huangdao
 							District, Qingdao City Shandong Province,
 							<br />
 							China

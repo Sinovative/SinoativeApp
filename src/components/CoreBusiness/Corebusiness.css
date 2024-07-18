@@ -1,14 +1,14 @@
 .coreBusinessSection {
 	padding: 20px 0;
 	background-color: #f9f9f9;
-	/* max-width: 1200px; */
 	border-radius: 8px;
 	margin: auto;
+	max-width: 90%;
 }
 img.card-img-top {
-    object-fit: fill;
-    height: 328px;
-    width: 728px;
+	object-fit: fill;
+	height: 328px;
+	width: 728px;
 }
 .card-link {
 	text-decoration: none;
@@ -35,7 +35,7 @@ img.card-img-top {
 .card-img-top {
 	width: 100%;
 	height: 100%;
-	object-fit: cover; /* Changed to 'cover' to maintain aspect ratio */
+	object-fit: fit-content; /* Changed to 'cover' to maintain aspect ratio */
 	transition: transform 0.3s ease-in;
 }
 
@@ -51,32 +51,42 @@ img.card-img-top {
 }
 
 .card-body img {
-    width: 80px;
-    margin-right: 10px;
-    height: 41px;
-    object-fit: contain;
+	width: 80px;
+	margin-right: 10px;
+	height: 41px;
+	object-fit: contain;
 }
 
 .card-body .col-9 {
 	padding-left: 0;
 }
 p.card-text {
-    margin-bottom: 0;
-    padding: 0;
+	margin-bottom: 0;
+	padding: 0;
 }
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
+	.coreBusinessSection {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 	.card-body {
+		margin: 20px;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
 
 	.card-body img {
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 
-	.image-container {
-		height: 150px;
+	img.card-img-top {
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
 	}
 }

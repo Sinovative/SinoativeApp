@@ -77,6 +77,7 @@ const TyreCollection = () => {
 				deviceType='desktop'
 				dotListClass='custom-dot-list-style'
 				itemClass='carousel-item-padding-40-px'
+				removeArrowOnDeviceType={('tablet', 'mobile')}
 			>
 				{tyres.map((tyre) => (
 					<div

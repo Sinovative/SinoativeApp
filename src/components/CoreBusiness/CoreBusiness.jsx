@@ -67,7 +67,7 @@ const CoreBusiness = () => {
 								href={business.link}
 								className='card h-100 card-link'
 							>
-								<div className='image-container mx-0'>
+								<div className='image-container'>
 									<img
 										src={business.image}
 										alt={business.title}
